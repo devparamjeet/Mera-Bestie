@@ -42,7 +42,7 @@ const Complaints = () => {
 
   useEffect(() => {
     fetchComplaints();
-  }, []);
+  }, [complaints]);
 
   const fetchComplaints = async () => {
     try {

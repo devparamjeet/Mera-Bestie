@@ -11,5 +11,14 @@ export default {
       },
     },
   },
+  server: {
+    proxy: {
+      '/get-orders': {
+        target: 'https://ecommercebackend-8gx8.onrender.com',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
   plugins: [],
 }

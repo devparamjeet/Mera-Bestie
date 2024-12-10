@@ -81,7 +81,7 @@ export default function Navbar() {
 
             {/* Logo */}
             <Link to="/HomePage" className="text-2xl flex items-center transform hover:scale-105 transition-transform">
-              <span className="font-['Bodoni_MT'] font-bold text-lg sm:text-2xl">MERA Bestie</span>
+              <span className="font-['Bodoni_MT'] font-bold text-lg sm:text-2xl">GCMera Bestie</span>
             </Link>
 
             {/* Search Bar */}
@@ -154,6 +154,12 @@ export default function Navbar() {
                           className="block px-4 py-2 text-sm hover:bg-pink-50 hover:text-pink-500 transition-colors"
                         >
                           Signup
+                        </Link>
+                        <Link
+                          to="/admin"
+                          className="block px-4 py-2 text-sm hover:bg-pink-50 hover:text-pink-500 transition-colors"
+                        >
+                          Admin
                         </Link>
                       </>
                     )}

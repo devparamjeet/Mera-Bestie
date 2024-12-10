@@ -94,7 +94,7 @@ const Orders = () => {
 
   useEffect(() => {
     fetchOrders();
-  }, []);
+  }, [orders]);
 
   const fetchOrders = async () => {
     try {

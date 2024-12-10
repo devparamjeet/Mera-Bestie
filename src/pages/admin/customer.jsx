@@ -62,7 +62,7 @@ const Customers = () => {
 
   useEffect(() => {
     fetchCustomers();
-  }, []);
+  }, [customers]);
 
   const fetchCustomers = async () => {
     try {
