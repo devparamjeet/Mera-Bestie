@@ -53,4 +53,29 @@ To learn more about the technologies used in this project:
 - [Vite Documentation](https://vitejs.dev/)
 - [React Documentation](https://react.dev/)
 
-## Project Structure
+## Routes
+
+- /
+- /login
+- /signup
+- /about
+- /shop
+- /contact
+- /occasionspage
+- /cart
+- /checkout
+- /admin
+- /admin/products
+- /admin/complaints
+- /admin/orders
+- /admin/customers
+- /admin/calendar
+
+## NOTE
+
+- This project is only frontend and does not have any backend.
+- The data will be stored in the local storage.
+- Data will be fetched from the local storage.
+- Real data will be reflected by changing the API in the code.
+
+
